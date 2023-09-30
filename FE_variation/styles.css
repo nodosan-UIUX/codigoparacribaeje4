@@ -10,8 +10,10 @@ body {
 }
 
 .main-container {
-    flood-color: #202020;
-    flood-opacity: 100%;
+    margin-top: 10px;
+    color: #f5f5f5;
+    font-size: 12px;
+    max-width: 1920px;
 }
 
 .input-container {
@@ -22,7 +24,7 @@ body {
 
 .output-container {
     text-align: left;
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 14px;
     max-width: 600px;
 }
@@ -56,4 +58,14 @@ body {
 
 .orange {
     color: orange;
+}
+
+.team-members {
+    margin-top: 100px;
+}
+
+.areandina-logo {
+    margin-top: 90px;
+    background-color: #f5f5f5;
+    max-width: 1920px;
 }
