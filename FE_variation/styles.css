@@ -1,0 +1,59 @@
+body {
+    background-color: #121212; /* Color de fondo del cuerpo */
+    background-image: radial-gradient(circle, #202020 1px , transparent 1px);
+    background-size: 10px 10px; /* Tamaño de los círculos (ajusta según tus preferencias) */
+    background-position: 0 0; /* Posición inicial del patrón */
+    display: grid;
+    justify-items: center;
+    font-family: Roboto, sans-serif;
+    color: #f4f4f4;
+}
+
+.main-container {
+    flood-color: #202020;
+    flood-opacity: 100%;
+}
+
+.input-container {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.output-container {
+    text-align: left;
+    margin-top: 40px;
+    font-size: 14px;
+    max-width: 600px;
+}
+
+.prime-table {
+    border-collapse: collapse;
+}
+
+.prime-table th, .prime-table td {
+    border: 2px solid #ccc;
+    padding: 5px 20px;
+    text-align: center;
+    background-color: #202020;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
